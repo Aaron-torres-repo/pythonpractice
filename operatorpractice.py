@@ -7,7 +7,6 @@ time_compound = 12*2
 # calculate interest earned
 # expected result is 264600.0
 
-
 compound_interest = (1 + annual_rate)**years
 final_result = principal*compound_interest
 print(final_result.__round__())
